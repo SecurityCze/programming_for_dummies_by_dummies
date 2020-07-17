@@ -1,30 +1,32 @@
 
 ```
 Kategorie dotazu?
-1
+>1
 Děkujeme, uživatele právě prověřujeme a podnikneme nutné kroky.
 ```
 
 ```
 Kategorie dotazu?
-2
+>2
 Děkujeme, předáme Váš feedback našemu vývojovému oddělení.
 ```
 
 ```    
 Kategorie dotazu?
-3
+>3
 Vaši zprávu evidujeme a ozveme se Vám co nejdříve.
 ```
 
 ```
 Kategorie dotazu?
-5
+>5
 ERROR
 ```
 
 ```
 Kategorie dotazu?
-aaaa
+>aaaa
 ERROR
 ```
+
+POZNÁMKA: Šipka > značí uživatelův vstup, tedy ten nevypisujete, vše ostatní ano.

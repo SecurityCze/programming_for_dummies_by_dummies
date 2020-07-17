@@ -16,4 +16,4 @@ Na vstupu programu bude číselná hodnota 1-3. Tato hodnota představuje katego
 
 V případě že na vstupu programu bude neplatný vstup (prázdný vstup, neznáme číslo, jiný znak...) vypíše program chybové hlášení a ukončí se s návratových kódem 1. 
 
-Všechny výpisy programu jsou ukončeny novou řádkou. A program ignoruje bílé znaky (mezera, nový řádek...).
+Všechny výpisy programu jsou ukončeny novou řádkou (tedy vy za každým výpisem musíte vypsat znak pro novou řádku "\n", např.: printf("muj vypis 1\n"). Program při čtení také ignoruje bílé znaky (mezera, nový řádek...).
