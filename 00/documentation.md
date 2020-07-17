@@ -25,7 +25,7 @@ scanf("%d %d %d", &num, &num2, &num3 ); // návratová hodnota by měla být
                                         // rovna číslu 3
 ```
 
-## Výpis na vstup
+## Výpis na výstup
 
 Pro výpis na standartní výstup by mohla být použita funkce `printf`, která je definována v knihově `<stdio.h>`.
 
@@ -62,6 +62,8 @@ Materiály zde:
 - datové typy: https://www.geeksforgeeks.org/data-types-in-c/
 
 # Ostatní
+
+- Naše zpracování využívá výpis na chybový výstup `stderr`. Ten je vám tedy zapovězen. (Můžete ho sice použít, ale je možné, že něco rozbijete).
 
 - Předpokládáme, že nebudete používat nic z knihovny `<signal.h>` či `<csignal>` a nebudete se pouštět do ničeho z knihoven `<pthread.h>` či `<thread>`.
 
