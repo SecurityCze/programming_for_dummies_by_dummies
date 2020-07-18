@@ -13,10 +13,7 @@ body {
 }
 
 .span-cls {
-	padding: 3px 6px;
-	border-radius: 5px;
-	color: white;
-	background-color: orange;
+	color: red;
 }
 
 .block-cls {
@@ -38,18 +35,23 @@ Něco o ní a jejím použití si můžete přečíst:
 </ul>
 Je vhodné si zjisti, jak funguje návratová hodnota této funkce, včetně možností čtení typů.
 
-Příklad:
+<h3> Příklad:</h3>
+
 <div class="block-cls">
 <b>int num;</b><br>
-<b>scanf("%d", &num ); // toto volání čte celé číslo a uloží jej do proměnné num</b><br>
-<b>                    // návratová hodnota by zde měla být rovna 1 v případě,</b><br>
-<b>                    // že se čtení povedlo (bylo načteno celé číslo)</b><br>
-<b>                    // %d - znamená, že čteme proměnnou - celé číslo - integer</b><br>
+<b>scanf("%d", &num );</b><br>
+
+<span style="color: green;">// toto volání čte celé číslo a uloží jej do proměnné num</span><br>
+<span style="color: green;">// návratová hodnota by zde měla být rovna 1 v případě,</span><br>
+<span style="color: green;">// že se čtení povedlo (bylo načteno celé číslo)</span><br>
+<span style="color: green;">// %d - znamená, že čteme proměnnou - celé číslo - integer</span><br>
 
 <b>int num2, num3;</b><br>
-<b>scanf("%d %d %d", &num, &num2, &num3 ); // návratová hodnota by měla být</b><br>
-<b>                                        // v případě úspěšného čtení</b><br>
-<b>                                        // rovna číslu 3</b><br>
+<b>scanf("%d %d %d", &num, &num2, &num3 );</b><br>
+
+<span style="color: green;">// návratová hodnota by měla být</span><br>
+<span style="color: green;">// v případě úspěšného čtení</span><br>
+<span style="color: green;">// rovna číslu 3</span><br>
 </div>
 
 <h2> Výpis na výstup</h2>
@@ -63,20 +65,25 @@ Něco o ní a jejím použití si můžete přečíst:
 </ul>
 Je záhodno si zjistit, jak tato funkce funguje, včetně možností výpisu.
 
-Příklad:
+<h3> Příklad:</h3>
 
 <div class="block-cls">
-<b>int num = 10;           // máme proměnnou typu integer - celé číslo</b><br>
-<b>printf("%d\n", num);    // %d - znamená výpis celého čísla - digit / decimal</b><br>
-<b>                        // toto vypíše obash proměnné "num", které je za čárkou</b><br>
-<b>                        // \n - výpis nové řádky</b><br>
+<b>int num = 10;</b><br>
+<b>printf("%d\n", num);</b><br>
+
+<span style="color: green;">// máme proměnnou typu integer - celé číslo</span><br>
+<span style="color: green;">// %d - znamená výpis celého čísla - digit / decimal</span><br>
+<span style="color: green;">// toto vypíše obash proměnné "num", které je za čárkou</span><br>
+<span style="color: green;">// \n - výpis nové řádky</span><br>
 
 <b>int num2 = 11, num3 = 12;</b><br>
-<b>printf("%d %d %d\n", num, num2, num3);  // vypíšeme tři integery v uvedeném</b><br>
-<b>                                        // pořadí, všimněte si, že každé</b><br>
-<b>                                        // %d, %s, %c... musí být doplněno </b><br>
-<b>                                        // o proměnnou, která by měla být</b><br>
-<b>                                        // vypsána</b><br>
+<b>printf("%d %d %d\n", num, num2, num3);</b><br>
+
+<span style="color: green;">// vypíšeme tři integery v uvedeném</span><br>
+<span style="color: green;">// pořadí, všimněte si, že každé</span><br>
+<span style="color: green;">// %d, %s, %c... musí být doplněno </span><br>
+<span style="color: green;">// o proměnnou, která by měla být</span><br>
+<span style="color: green;">// vypsána</span><br>
 </div>
 
 <h1> Proměnné</h1>
