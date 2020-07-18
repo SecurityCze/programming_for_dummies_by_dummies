@@ -1,14 +1,41 @@
-# Zahřívací úloha
+<style>
+body {
+	color: black;
+	background-color: white;
+}
+
+.list-cls {
+
+}
+
+.list-item-cls {
+	margin: 10px 0;
+}
+
+.span-cls {
+	padding: 3px 6px;
+	border-radius: 5px;
+	color: white;
+	background-color: orange;
+}
+
+.block-cls {
+	padding: 4px;
+	margin: 10px 0;
+	border: 2px dashed black;
+}
+</style>
+<h1> Zahřívací úloha</h1>
 
 V této úloze si vyzkoušíte základní funkce programovacího jazyka.
 
-## Problém
+<h2> Problém</h2>
 
 Valve má problém... V CS:GO došlo po leaknutí source kódu k velkému nárustu cheatrů.
 
 A support team je přehlcen množícími tickety. Pro zrychlení komunikace je potřeba vytvořit automatický systém.
 
-## Program
+<h2> Program</h2>
 
 Podpůrný program bude dělat následující:
 
