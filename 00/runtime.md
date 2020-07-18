@@ -13,10 +13,7 @@ body {
 }
 
 .span-cls {
-	padding: 3px 6px;
-	border-radius: 5px;
-	color: white;
-	background-color: orange;
+	color: red;
 }
 
 .block-cls {
@@ -28,32 +25,30 @@ body {
 
 <div class="block-cls">
 <b>Kategorie dotazu?</b><br>
-1<br>
+1</b><br>
 <b>Děkujeme, uživatele právě prověřujeme a podnikneme nutné kroky.</b><br>
 </div>
 
 <div class="block-cls">
 <b>Kategorie dotazu?</b><br>
-2<br>
+2</b><br>
 <b>Děkujeme, předáme Váš feedback našemu vývojovému oddělení.</b><br>
 </div>
 
 <div class="block-cls">
 <b>Kategorie dotazu?</b><br>
-3<br>
+3</b><br>
 <b>Vaši zprávu evidujeme a ozveme se Vám co nejdříve.</b><br>
 </div>
 
 <div class="block-cls">
 <b>Kategorie dotazu?</b><br>
-5<br>
+5</b><br>
 <b>ERROR</b><br>
 </div>
 
 <div class="block-cls">
 <b>Kategorie dotazu?</b><br>
-aaaa<br>
+aaaa</b><br>
 <b>ERROR</b><br>
 </div>
-
-POZNÁMKA: Šipka &gt; značí uživatelův vstup, tedy ten nevypisujete, vše ostatní ano.

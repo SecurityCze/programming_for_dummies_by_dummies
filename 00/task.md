@@ -13,10 +13,7 @@ body {
 }
 
 .span-cls {
-	padding: 3px 6px;
-	border-radius: 5px;
-	color: white;
-	background-color: orange;
+	color: red;
 }
 
 .block-cls {
