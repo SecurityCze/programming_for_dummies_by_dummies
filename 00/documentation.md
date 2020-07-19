@@ -47,6 +47,7 @@ Příklad:
 <br>
 <b>int num2, num3;</b><br>
 <b>scanf("%d %d %d", &num, &num2, &num3 );</b><br>
+<br>
 <span style="color: green;">// návratová hodnota by měla být</span><br>
 <span style="color: green;">// v případě úspěšného čtení</span><br>
 <span style="color: green;">// rovna číslu 3</span><br>
@@ -68,6 +69,7 @@ Příklad:
 <div class="block-cls">
 <b>int num = 10;           </b><br>
 <b>printf("%d\n", num);</b><br>
+<br>
 <span style="color: green;">// máme proměnnou typu integer - celé číslo</span><br>
 <span style="color: green;">// %d - znamená výpis celého čísla - digit / decimal</span><br>
 <span style="color: green;">// toto vypíše obash proměnné "num", které je za čárkou</span><br>
@@ -75,6 +77,7 @@ Příklad:
 <br>
 <b>int num2 = 11, num3 = 12;</b><br>
 <b>printf("%d %d %d\n", num, num2, num3);</b><br>
+<br>
 <span style="color: green;">// vypíšeme tři integery v uvedeném</span><br>
 <span style="color: green;">// pořadí, všimněte si, že každé</span><br>
 <span style="color: green;">// %d, %s, %c... musí být doplněno </span><br>
