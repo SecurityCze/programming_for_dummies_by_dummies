@@ -30,4 +30,4 @@ More of recomended documentation
 
 <hr>
 
-<img src="logo_pc.png">
+<img src="../programming_for_dummies_by_dummies/01/logo_pc.png">
