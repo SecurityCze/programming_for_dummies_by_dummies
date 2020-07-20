@@ -27,3 +27,7 @@ This is a recomended documentation
 <hr>
 
 More of recomended documentation
+
+<hr>
+
+<img src="logo_pc.png">
