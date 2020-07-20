@@ -56,7 +56,7 @@ w</b><br>
 <b>Hrac #4: rank-up</b><br>
 <b>Hrac #5: rank-up</b><br>
 </div>
-
+<hr>
 <div class="block-cls">
 <b>Zadej herni vstupy:</b><br>
 valorant > csgo</b><br>
