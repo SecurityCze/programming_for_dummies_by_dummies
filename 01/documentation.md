@@ -23,3 +23,7 @@ body {
 }
 </style>
 This is a recomended documentation
+
+<hr>
+
+More of recomended documentation
