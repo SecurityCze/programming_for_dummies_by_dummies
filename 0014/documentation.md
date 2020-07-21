@@ -22,4 +22,4 @@ body {
 	border: 2px dashed black;
 }
 </style>
-This is a recomended documentation
+This is a recomended documentation<br>

@@ -23,21 +23,18 @@ body {
 }
 </style>
 <h1> Zahřívací úloha</h1>
-<br>
-V této úloze si vyzkoušíte základní funkce programovacího jazyka.
+V této úloze si vyzkoušíte základní funkce programovacího jazyka.<br>
 <br>
 <h2> Problém</h2>
+Valve má problém... V CS:GO došlo po leaknutí source kódu k velkému nárustu cheatrů.<br>
 <br>
-Valve má problém... V CS:GO došlo po leaknutí source kódu k velkému nárustu cheatrů.
-<br>
-A support team je přehlcen množícími tickety. Pro zrychlení komunikace je potřeba vytvořit automatický systém.
+A support team je přehlcen množícími tickety. Pro zrychlení komunikace je potřeba vytvořit automatický systém.<br>
 <br>
 <h2> Program</h2>
+Podpůrný program bude dělat následující:<br>
 <br>
-Podpůrný program bude dělat následující:
+Na vstupu programu bude číselná hodnota 1-3. Tato hodnota představuje kategorii problému. Program poté podle kategorie vypíše automatickou odpověď uživateli (viz ukázka běhu) a ukončí se s návratovým kódem 0.<br>
 <br>
-Na vstupu programu bude číselná hodnota 1-3. Tato hodnota představuje kategorii problému. Program poté podle kategorie vypíše automatickou odpověď uživateli (viz ukázka běhu) a ukončí se s návratovým kódem 0.
+V případě že na vstupu programu bude neplatný vstup (prázdný vstup, neznáme číslo, jiný znak...) vypíše program chybové hlášení a ukončí se s návratových kódem 1. <br>
 <br>
-V případě že na vstupu programu bude neplatný vstup (prázdný vstup, neznáme číslo, jiný znak...) vypíše program chybové hlášení a ukončí se s návratových kódem 1. 
-<br>
-Všechny výpisy programu jsou ukončeny novou řádkou. A program ignoruje bílé znaky (mezera, nový řádek...).
+Všechny výpisy programu jsou ukončeny novou řádkou. A program ignoruje bílé znaky (mezera, nový řádek...).<br>
