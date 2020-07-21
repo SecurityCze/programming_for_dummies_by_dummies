@@ -1,54 +1,100 @@
-<style>
-body {
-	color: black;
-	background-color: white;
-}
+```
+> Kategorie dotazu?
+0
+> Dekujeme, tento problem byl vyresen.
+> Kategorie dotazu?
+-11
+> ERROR
+```
 
-.list-cls {
+_
 
-}
+```
+> Kategorie dotazu?
+1
+> Dekujeme, uzivatele prave proverujeme a podnikneme nutne kroky.
+> Kategorie dotazu?
+1
+> Dekujeme, uzivatele prave proverujeme a podnikneme nutne kroky.
+> Kategorie dotazu?
+1
+> Dekujeme, uzivatele prave proverujeme a podnikneme nutne kroky.
+> Kategorie dotazu?
+2
+> Dekujeme, predame Vas feedback nasemu vývojovému oddelení.
+> Kategorie dotazu?
+0
+> Dekujeme, tento problem byl vyresen.
+> Kategorie dotazu?
+100
+> ERROR
+```
 
-.list-item-cls {
-	margin: 10px 0;
-}
+_
 
-.span-cls {
-	color: red;
-}
 
-.block-cls {
-	padding: 4px;
-	margin: 10px 0;
-	border: 2px dashed black;
-}
-</style>
+```
+> Kategorie dotazu?
+2
+> Dekujeme, predame Vas feedback nasemu vývojovému oddelení.
+> Kategorie dotazu?
+I WANT TO GO HOME
+> ERROR
+```
 
-<div class="block-cls">
-<b>Kategorie dotazu?</b><br>
-1</b><br>
-<b>Děkujeme, uživatele právě prověřujeme a podnikneme nutné kroky.</b><br>
-</div>
-<hr>
-<div class="block-cls">
-<b>Kategorie dotazu?</b><br>
-2</b><br>
-<b>Děkujeme, předáme Váš feedback našemu vývojovému oddělení.</b><br>
-</div>
-<hr>
-<div class="block-cls">
-<b>Kategorie dotazu?</b><br>
-3</b><br>
-<b>Vaši zprávu evidujeme a ozveme se Vám co nejdříve.</b><br>
-</div>
-<hr>
-<div class="block-cls">
-<b>Kategorie dotazu?</b><br>
-5</b><br>
-<b>ERROR</b><br>
-</div>
-<hr>
-<div class="block-cls">
-<b>Kategorie dotazu?</b><br>
-aaaa</b><br>
-<b>ERROR</b><br>
-</div>
+_
+
+
+```    
+> Kategorie dotazu?
+3
+> Vasi zpravu evidujeme a ozveme se Vam co nejdrive.
+> Kategorie dotazu?
+3
+> Vasi zpravu evidujeme a ozveme se Vam co nejdrive.
+> Kategorie dotazu?
+3
+> Vasi zpravu evidujeme a ozveme se Vam co nejdrive.
+> Kategorie dotazu?
+3
+> Vasi zpravu evidujeme a ozveme se Vam co nejdrive.
+> Kategorie dotazu?
+3
+> Vasi zpravu evidujeme a ozveme se Vam co nejdrive.
+> Kategorie dotazu?
+3
+> Vasi zpravu evidujeme a ozveme se Vam co nejdrive.
+> Kategorie dotazu?
+3
+> Vasi zpravu evidujeme a ozveme se Vam co nejdrive.
+> Kategorie dotazu?
+3
+> Vasi zpravu evidujeme a ozveme se Vam co nejdrive.
+> Kategorie dotazu?
+3
+> Vasi zpravu evidujeme a ozveme se Vam co nejdrive.
+> Kategorie dotazu?
+2
+> Dekujeme, predame Vas feedback nasemu vývojovému oddelení.
+> Kategorie dotazu?
+LOLZ TY JSI TO PRECTL
+> ERROR
+```
+
+_
+
+
+```
+> Kategorie dotazu?
+5
+> ERROR
+```
+
+_
+
+
+```
+> Kategorie dotazu?
+aaaa
+> ERROR
+```

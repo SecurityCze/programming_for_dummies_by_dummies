@@ -1,104 +1,115 @@
-<style>
-body {
-	color: black;
-	background-color: white;
+# Co by se mohlo hodit?
+
+## Co bude potřeba pro vylepšenou verzi
+
+V jazyce C a C++ existuj konstrukty které se jmenují cykly (loops).
+
+Existují 3 typy:
+
+- for
+- while
+- do { ... } while
+
+Pro tuto úlohu pravděpodobně použijete cyklus while. Ale pamatujte že žádný z cyklů není špatně - experimentujte.
+
+```
+int vstup = 1;				// Definujeme promenou do ktere budeme ukladat vstup od uzivatele
+while (vstup == 1) {		// Obsah tela cyklu se bude opakovat dokud plati podminka ze vstup se rovna 1
+	scanf("%d", &vstup);	// Nacteme cislo od uzivatele
 }
+		
+printf("Zadal jste jine cislo nez 1.\n");
+```
+V této ukázce je nutné nastavit proměnou vstup již před cyklem. Pokud by jsme jí nenastavili tak by v ní byla nedefinovaná hodnota. A tudíž při kontrole podmínky by jsme dostávali náhodý výsledek.
+Cykly `for` a `while` kontrolují podmíku již před jejich spuštění. Zatímoc cyklus `do {...} while`  jí kontroluje až po provdení těla.
 
-.list-cls {
+```
+ for ( ; 1 == 2 ; ) {
+	printf("Tady nikdy nebudu, 1 se totiz nikdy nebude rovat 2.\n");
+ }
+ 
+ while (1 == 2) {
+	printf("Tady taky nikdy nebudu.\n");
+ }
 
-}
+ do {
+	printf("Tady budu pouze 1. Pote se zkontroluje podminka a ukonci se cyklus.\n");
+ } while (1 == 2);
+```
 
-.list-item-cls {
-	margin: 10px 0;
-}
+Více informací o cyklech můžete získat:
+- https://www.geeksforgeeks.org/loops-in-c-and-cpp/
+- Dokumentace:
+	- for: https://en.cppreference.com/w/c/language/for
+	- while: https://en.cppreference.com/w/c/language/while
+	- do { ... } while: https://en.cppreference.com/w/c/language/do
 
-.span-cls {
-	color: red;
-}
 
-.block-cls {
-	padding: 4px;
-	margin: 10px 0;
-	border: 2px dashed black;
-}
-</style>
-<h1> Co by se mohlo hodit?</h1>
+## Načítání vstupů
 
-<h2> Načítání vstupů</h2>
-
-Pro načítání vstupů by mohla být použita funkce <span class="span-cls">scanf</span>, která je definována v knihovně <span class="span-cls">&lt;stdio.h&gt;</span>.
+Pro načítání vstupů by mohla být použita funkce `scanf`, která je definována v knihovně `<stdio.h>`.
 
 Něco o ní a jejím použití si můžete přečíst:
-<ul class="list-cls">
-	<li class="list-item-cls">  přístupnější: https://www.geeksforgeeks.org/scanf-and-fscanf-in-c-simple-yet-poweful/</li>
-	<li class="list-item-cls">  oficiální dokumentace: https://en.cppreference.com/w/c/io/fscanf</li>
-</ul>
+- přístupnější: https://www.geeksforgeeks.org/scanf-and-fscanf-in-c-simple-yet-poweful/
+
+- oficiální dokumentace: https://en.cppreference.com/w/c/io/fscanf
+
 Je vhodné si zjisti, jak funguje návratová hodnota této funkce, včetně možností čtení typů.
 
 Příklad:
-<div class="block-cls">
-<b>int num;</b><br>
-<b>scanf("%d", &num );</b><br>
-<br>
-<span style="color: green;">// toto volání čte celé číslo a uloží jej do proměnné num</span><br>
-<span style="color: green;">// návratová hodnota by zde měla být rovna 1 v případě,</span><br>
-<span style="color: green;">// že se čtení povedlo (bylo načteno celé číslo)</span><br>
-<span style="color: green;">// %d - znamená, že čteme proměnnou - celé číslo - integer</span><br>
-<br>
-<b>int num2, num3;</b><br>
-<b>scanf("%d %d %d", &num, &num2, &num3 );</b><br>
-<br>
-<span style="color: green;">// návratová hodnota by měla být</span><br>
-<span style="color: green;">// v případě úspěšného čtení</span><br>
-<span style="color: green;">// rovna číslu 3</span><br>
-</div>
+```
+int num;
+scanf("%d", &num ); // toto volání čte celé číslo a uloží jej do proměnné num
+                    // návratová hodnota by zde měla být rovna 1 v případě,
+                    // že se čtení povedlo (bylo načteno celé číslo)
+                    // %d - znamená, že čteme proměnnou - celé číslo - integer
+int num2, num3;
+scanf("%d %d %d", &num, &num2, &num3 ); // návratová hodnota by měla být
+                                        // v případě úspěšného čtení
+                                        // rovna číslu 3
+```
 
-<h2> Výpis na výstup</h2>
+## Výpis na vstup
 
-Pro výpis na standartní výstup by mohla být použita funkce <span class="span-cls">printf</span>, která je definována v knihově <span class="span-cls">&lt;stdio.h&gt;</span>.
+Pro výpis na standartní výstup by mohla být použita funkce `printf`, která je definována v knihově `<stdio.h>`.
 
 Něco o ní a jejím použití si můžete přečíst:
-<ul class="list-cls">
-	<li class="list-item-cls">  přístupnější: https://www.sallyx.org/sally/c/c07.php</li>
-	<li class="list-item-cls">  oficiální dokumentace: https://en.cppreference.com/w/cpp/io/c/fprintf</li>
-</ul>
+- přístupnější: https://www.sallyx.org/sally/c/c07.php
+
+- oficiální dokumentace: https://en.cppreference.com/w/cpp/io/c/fprintf
+
 Je záhodno si zjistit, jak tato funkce funguje, včetně možností výpisu.
 
 Příklad:
 
-<div class="block-cls">
-<b>int num = 10;           </b><br>
-<b>printf("%d\n", num);</b><br>
-<br>
-<span style="color: green;">// máme proměnnou typu integer - celé číslo</span><br>
-<span style="color: green;">// %d - znamená výpis celého čísla - digit / decimal</span><br>
-<span style="color: green;">// toto vypíše obash proměnné "num", které je za čárkou</span><br>
-<span style="color: green;">// \n - výpis nové řádky</span><br>
-<br>
-<b>int num2 = 11, num3 = 12;</b><br>
-<b>printf("%d %d %d\n", num, num2, num3);</b><br>
-<br>
-<span style="color: green;">// vypíšeme tři integery v uvedeném</span><br>
-<span style="color: green;">// pořadí, všimněte si, že každé</span><br>
-<span style="color: green;">// %d, %s, %c... musí být doplněno </span><br>
-<span style="color: green;">// o proměnnou, která by měla být</span><br>
-<span style="color: green;">// vypsána</span><br>
-</div>
+```
+int num = 10;           // máme proměnnou typu integer - celé číslo
+printf("%d\n", num);    // %d - znamená výpis celého čísla - digit / decimal
+                        // toto vypíše obash proměnné "num", které je za čárkou
+                        // \n - výpis nové řádky
+int num2 = 11, num3 = 12;
+printf("%d %d %d\n", num, num2, num3);  // vypíšeme tři integery v uvedeném
+                                        // pořadí, všimněte si, že každé
+                                        // %d, %s, %c... musí být doplněno 
+                                        // o proměnnou, která by měla být
+                                        // vypsána
+```
 
-<h1> Proměnné</h1>
+# Proměnné
 
 Bylo by si záhodno přečíst, jaké proměnné a datové typy jsou v jazyce C.
 
 Materiály zde:
-<ul class="list-cls">
-	<li class="list-item-cls">  proměnné: https://www.tutorialspoint.com/cprogramming/c_variables.htm</li>
-	<li class="list-item-cls">  datové typy: https://www.geeksforgeeks.org/data-types-in-c/</li>
-</ul>
-<h1> Ostatní</h1>
+- proměnné: https://www.tutorialspoint.com/cprogramming/c_variables.htm
 
-<ul class="list-cls">
-	<li class="list-item-cls">  Naše zpracování využívá výpis na chybový výstup <span class="span-cls">stderr</span>. Ten je vám tedy zapovězen. (Můžete ho sice použít, ale je možné, že něco rozbijete).</li>
-	<li class="list-item-cls">  Předpokládáme, že nebudete používat nic z knihovny <span class="span-cls">&lt;signal.h&gt;</span> či <span class="span-cls">&lt;csignal&gt;</span> a nebudete se pouštět do ničeho z knihoven <span class="span-cls">&lt;pthread.h&gt;</span> či <span class="span-cls">&lt;thread&gt;</span>.</li>
-	<li class="list-item-cls">  Můžete používat jazyky C a C++. Pokud byste měli použít v C++ dynamickou alokaci, neměli byste obecně kombinovat ( maloc / free ) a ( new / delete ). Je to ve vašem vlastním zájmu. <span class="span-cls">Tato informace je spíše pro budoucí úkoly.</span></li>
-	<li class="list-item-cls">  Náš program je ve fázi daleko v nedohlednu před alfa verzí. Pokud se budete snažit jí rozbít, povede se to. Mějte však na paměti, že vše běží na vašem počítači. Z naší strany žádná újma nehrozí, ale pokud se budete pokoušet o alokaci GB paměti, budete škodit jen sobě.</li>
-	<li class="list-item-cls">  Pokud budete potřebovat s čímkoli pomoci, obraťte se na administrátory verbálně či emailem v sekci About creators v hlavním menu.</li></ul>
+- datové typy: https://www.geeksforgeeks.org/data-types-in-c/
+
+# Ostatní
+
+- Předpokládáme, že nebudete používat nic z knihovny `<signal.h>` či `<csignal>` a nebudete se pouštět do ničeho z knihoven `<pthread.h>` či `<thread>`.
+
+- Můžete používat jazyky C a C++. Pokud byste měli použít v C++ dynamickou alokaci, neměli byste obecně kombinovat ( maloc / free ) a ( new / delete ). Je to ve vašem vlastním zájmu. `Tato informace je spíše pro budoucí úkoly.`
+
+- Náš program je ve fázi daleko v nedohlednu před alfa verzí. Pokud se budete snažit jí rozbít, povede se to. Mějte však na paměti, že vše běží na vašem počítači. Z naší strany žádná újma nehrozí, ale pokud se budete pokoušet o alokaci GB paměti, budete škodit jen sobě.
+
+- Pokud budete potřebovat s čímkoli pomoci, obraťte se na administrátory verbálně či emailem v sekci About creators v hlavním menu.

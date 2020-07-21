@@ -1,43 +1,35 @@
-<style>
-body {
-	color: black;
-	background-color: white;
-}
+# Žádosti na vylepšéní od Valve support teamu
 
-.list-cls {
+## Problém
 
-}
+V minulých dnech jste úspěšně deploynuli program pro podporu Valve support teamu. Tato aplikace dovolila teamu vyřídit všechny čekající tickety.
 
-.list-item-cls {
-	margin: 10px 0;
-}
+Bohužem z důvodu světové pandemie virem COVID-2019 došlo k uzavření Indického support centra. A je potřeba zvýšit efektivitu zpracování ticketů.
 
-.span-cls {
-	color: red;
-}
+Po dlouhé a drahé studii bylo zjištěna průměrná doba vyřízení 1 ticketu: 4,25 sekundy. To je nepřijatelné.
 
-.block-cls {
-	padding: 4px;
-	margin: 10px 0;
-	border: 2px dashed black;
-}
-</style>
-<h1> Zahřívací úloha</h1>
+Je tedy nutné vylepšit dosavadní systém, a to v 3 bodech:
 
-V této úloze si vyzkoušíte základní funkce programovacího jazyka.
+	1) Z důvodu nekompatibility některých systému upoušťíme od používání háčků a čárek. (Všechna tato písmena budou nahrazena verzí bez diakritiky)
 
-<h2> Problém</h2>
+	2) Přidáváme novou kategorii dotazu: `0` s generovanou odpovědí: `Dekujeme, tento problem byl vyresen.`
+	
+	3) Program načítá kategorie a vypisuje odpověďi do prvního chybného vstupu. Poté vypíše `ERROR` a ukončí se.
 
-Valve má problém... V CS:GO došlo po leaknutí source kódu k velkému nárustu cheatrů.
+## Program
 
-A support team je přehlcen množícími tickety. Pro zrychlení komunikace je potřeba vytvořit automatický systém.
+Jedná se o upgrade podpůrného programu ze Zahřívací úlohy. Jecho chování je následující:
 
-<h2> Program</h2>
+Program vypíše `Kategorie dotazu?` a čeká na vstup od uživatele.
 
-Podpůrný program bude dělat následující:
-<br><br>
-Na vstupu programu bude číselná hodnota 1-3. Tato hodnota představuje kategorii problému. Program poté podle kategorie vypíše automatickou odpověď uživateli (viz ukázka běhu) a ukončí se s návratovým kódem 0.
-<br><br>
-V případě že na vstupu programu bude neplatný vstup (prázdný vstup, neznáme číslo, jiný znak...) vypíše program chybové hlášení a ukončí se s návratových kódem 1. 
-<br><br>
-Všechny výpisy programu jsou ukončeny novou řádkou (tedy vy za každým výpisem musíte vypsat znak pro novou řádku "\n", např.: printf("muj vypis 1\n"). Program při čtení také ignoruje bílé znaky (mezera, nový řádek...).
+Na vstupu programu bude číselná hodnota 0-3. Tato hodnota představuje kategorii problému. Program poté podle kategorie vypíše automatickou odpověď uživateli (viz ukázka běhu).
+
+V případě že na vstupu programu bude neplatný vstup (prázdný vstup, neznáme číslo, jiný znak...) vypíše program chybové hlášení a ukončí se. 
+
+Program opět vypíše dotaz a pokračuje v načítání.
+
+## Co kontrolovat?
+
+- Všechny výpisy programu jsou ukončeny novou řádkou.	
+- A program ignoruje bílé znaky (mezera, nový řádek...).
+
