@@ -16,10 +16,10 @@ Pro tuto úlohu pravděpodobně použijete cyklus while. Ale pamatujte, že žá
 int vstup = 1;				// Definujeme promennou, do ktere budeme ukladat vstup od uzivatele
 while (vstup == 1) {		// Obsah tela cyklu se bude opakovat dokud plati podminka ze vstup se rovna 1
      scanf("%d", &vstup);	// Nacteme cislo od uzivatele
-}
-		
+}	
 printf("Zadal jste jine cislo nez 1.\n");
 ```
+
 V této ukázce je nutné nastavit proměnnou vstup již před cyklem. Pokud bychom jí nenastavili, tak by v ní byla nedefinovaná hodnota. A tudíž při kontrole podmínky bychom dostávali náhodý výsledek.
 Cykly `for` a `while` kontrolují podmíku již před jejich spuštění. Zatímoc cyklus `do {...} while`  jí kontroluje až po provdení těla.
 
@@ -39,10 +39,11 @@ Cykly `for` a `while` kontrolují podmíku již před jejich spuštění. Zatím
 
 Více informací o cyklech můžete získat:
 - https://www.geeksforgeeks.org/loops-in-c-and-cpp/
-- Dokumentace:
-	- for: https://en.cppreference.com/w/c/language/for
-	- while: https://en.cppreference.com/w/c/language/while
-	- do { ... } while: https://en.cppreference.com/w/c/language/do
+
+Dokumentace:
+- for: https://en.cppreference.com/w/c/language/for
+- while: https://en.cppreference.com/w/c/language/while
+- do { ... } while: https://en.cppreference.com/w/c/language/do
 
 
 ## Načítání vstupů
