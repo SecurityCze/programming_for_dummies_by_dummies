@@ -24,32 +24,32 @@ body {
 </style>
 <div class="block-cls">
 <b>Zadej herni vstupy:</b><br>
-0 1 1 1 </b><br>
--1 2 0 0 </b><br>
--4 1 0 0 </b><br>
-0 0 0 0 </b><br>
-3 0 1 0 </b><br>
--2 3 1 1 </b><br>
-2 2 1 0 </b><br>
-1 3 0 0 </b><br>
-2 0 1 0 </b><br>
-0 3 0 0 </b><br>
-1 4 0 1 </b><br>
-2 0 0 0 </b><br>
-1 3 0 0 </b><br>
--1 5 0 0 </b><br>
-1 1 0 0 </b><br>
--1 1 0 0 </b><br>
-1 0 0 0 </b><br>
--1 2 1 0 </b><br>
-4 0 1 0 </b><br>
-0 5 1 1 </b><br>
--4 1 0 1 </b><br>
-4 0 1 0 </b><br>
-0 3 1 0 </b><br>
-0 1 1 0 </b><br>
-0 2 1 0 </b><br>
-w</b><br>
+0 1 1 1 <br>
+-1 2 0 0 <br>
+-4 1 0 0 <br>
+0 0 0 0 <br>
+3 0 1 0 <br>
+-2 3 1 1 <br>
+2 2 1 0 <br>
+1 3 0 0 <br>
+2 0 1 0 <br>
+0 3 0 0 <br>
+1 4 0 1 <br>
+2 0 0 0 <br>
+1 3 0 0 <br>
+-1 5 0 0 <br>
+1 1 0 0 <br>
+-1 1 0 0 <br>
+1 0 0 0 <br>
+-1 2 1 0 <br>
+4 0 1 0 <br>
+0 5 1 1 <br>
+-4 1 0 1 <br>
+4 0 1 0 <br>
+0 3 1 0 <br>
+0 1 1 0 <br>
+0 2 1 0 <br>
+w<br>
 <b>Hrac #1: -1.00</b><br>
 <b>Hrac #2: rank-up</b><br>
 <b>Hrac #3: 1.00</b><br>
@@ -59,6 +59,6 @@ w</b><br>
 <hr>
 <div class="block-cls">
 <b>Zadej herni vstupy:</b><br>
-valorant > csgo</b><br>
+valorant > csgo<br>
 <b>Nespravny vstup</b><br>
 </div>
