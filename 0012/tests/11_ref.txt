@@ -1,0 +1,13 @@
+Zadej souradnice hrace:
+Zadej souradnice kulek:
+Bullet check: 25 damage.
+Bullet check: 25 damage.
+Total damage out of 2 bullets: 50.
+Bullet check: 25 damage.
+Total damage out of 3 bullets: 75.
+Bullet check: 25 damage.
+Total damage out of 4 bullets: 100.
+Bullet check: 25 damage.
+Total damage out of 5 bullets: 125.
+Bullet check: MISS.
+Total damage out of 6 bullets: 125.
