@@ -1,15 +1,12 @@
 # Zahřívací úloha
-
 V této úloze si vyzkoušíte základní funkce programovacího jazyka.
 
 ## Problém
-
 Valve má problém... V CS:GO došlo po leaknutí source kódu k velkému nárustu cheatrů.
 
 A support team je přehlcen množícími tickety. Pro zrychlení komunikace je potřeba vytvořit automatický systém.
 
 ## Program
-
 Podpůrný program bude dělat následující:
 
 Na vstupu programu bude číselná hodnota 1-3. Tato hodnota představuje kategorii problému. Program poté podle kategorie vypíše automatickou odpověď uživateli (viz ukázka běhu) a ukončí se s návratovým kódem 0.

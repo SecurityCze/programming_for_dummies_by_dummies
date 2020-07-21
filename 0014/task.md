@@ -1,5 +1,4 @@
 ### MMR systém
-
 Valve se rozhodlo pro CS:GO vydat nový herní mód. A protože komunita dala jasně najevo, že je MMR systém nepřehledný odpad, Valve se s tím rozhodlo něco dělat. A od toho jsi tu ty.
 
 Nový mód bude probíhat stejně jako klasický kompetitivní mód. Rozdíl je, že každá hra bude trvat jen pět kol. (Such originality, much wow). Markeťáci se rozhodli, že nový MMR systém se bude jmenovat TotallyRetardedRatioSystem (TRRS).
