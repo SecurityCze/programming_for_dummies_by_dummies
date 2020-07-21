@@ -1,4 +1,4 @@
-# Žádosti na vylepšéní od Valve support teamu
+# Žádosti na vylepšení od Valve support teamu
 
 ## Problém
 
@@ -10,11 +10,9 @@ Po dlouhé a drahé studii bylo zjištěna průměrná doba vyřízení 1 ticket
 
 Je tedy nutné vylepšit dosavadní systém, a to v 3 bodech:
 
-	1) Z důvodu nekompatibility některých systému upoušťíme od používání háčků a čárek. (Všechna tato písmena budou nahrazena verzí bez diakritiky)
-
-	2) Přidáváme novou kategorii dotazu: `0` s generovanou odpovědí: `Dekujeme, tento problem byl vyresen.`
-	
-	3) Program načítá kategorie a vypisuje odpověďi do prvního chybného vstupu. Poté vypíše `ERROR` a ukončí se.
+- 1 => Z důvodu nekompatibility některých systému upoušťíme od používání háčků a čárek. (Všechna tato písmena budou nahrazena verzí bez diakritiky)
+- 2 => Přidáváme novou kategorii dotazu: `0` s generovanou odpovědí: `Dekujeme, tento problem byl vyresen.`
+- 3 => Program načítá kategorie a vypisuje odpověďi do prvního chybného vstupu. Poté vypíše `ERROR` a ukončí se.
 
 ## Program
 
