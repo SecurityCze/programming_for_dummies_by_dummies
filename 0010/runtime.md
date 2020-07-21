@@ -1,38 +1,62 @@
+<style>
+body {
+	color: black;
+	background-color: white;
+}
 
-```
-Kategorie dotazu?
-1
-Děkujeme, uživatele právě prověřujeme a podnikneme nutné kroky.
-```
+.list-cls {
 
-_
+}
 
-```
-Kategorie dotazu?
-2
-Děkujeme, předáme Váš feedback našemu vývojovému oddělení.
-```
+.list-item-cls {
+	margin: 10px 0;
+}
 
-_
+.span-cls {
+	color: red;
+}
 
-```    
-Kategorie dotazu?
-3
-Vaši zprávu evidujeme a ozveme se Vám co nejdříve.
-```
+.block-cls {
+	padding: 4px;
+	margin: 10px 0;
+	border: 2px dashed black;
+}
+</style>
 
-_
+<div class="block-cls">
+<b>Kategorie dotazu?</b><br>
+<b>1</b><br>
+<b>Děkujeme, uživatele právě prověřujeme a podnikneme nutné kroky.</b><br>
+</div>
 
-```
-Kategorie dotazu?
-5
-ERROR
-```
+<hr>
 
-_
+<div class="block-cls">
+<b>Kategorie dotazu?</b><br>
+<b>2</b><br>
+<b>Děkujeme, předáme Váš feedback našemu vývojovému oddělení.</b><br>
+</div>
 
-```
-Kategorie dotazu?
-aaaa
-ERROR
-```
+<hr>
+
+<div class="block-cls">
+<b>Kategorie dotazu?</b><br>
+<b>3</b><br>
+<b>Vaši zprávu evidujeme a ozveme se Vám co nejdříve.</b><br>
+</div>
+
+<hr>
+
+<div class="block-cls">
+<b>Kategorie dotazu?</b><br>
+<b>5</b><br>
+<b>ERROR</b><br>
+</div>
+
+<hr>
+
+<div class="block-cls">
+<b>Kategorie dotazu?</b><br>
+<b>aaaa</b><br>
+<b>ERROR</b><br>
+</div>
