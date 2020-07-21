@@ -15,7 +15,7 @@ Pro tuto úlohu pravděpodobně použijete cyklus while. Ale pamatujte že žád
 ```
 int vstup = 1;				// Definujeme promenou do ktere budeme ukladat vstup od uzivatele
 while (vstup == 1) {		// Obsah tela cyklu se bude opakovat dokud plati podminka ze vstup se rovna 1
-	scanf("%d", &vstup);	// Nacteme cislo od uzivatele
+     scanf("%d", &vstup);	// Nacteme cislo od uzivatele
 }
 		
 printf("Zadal jste jine cislo nez 1.\n");
@@ -25,15 +25,15 @@ Cykly `for` a `while` kontrolují podmíku již před jejich spuštění. Zatím
 
 ```
  for ( ; 1 == 2 ; ) {
-	printf("Tady nikdy nebudu, 1 se totiz nikdy nebude rovat 2.\n");
+     printf("Tady nikdy nebudu, 1 se totiz nikdy nebude rovat 2.\n");
  }
  
  while (1 == 2) {
-	printf("Tady taky nikdy nebudu.\n");
+     printf("Tady taky nikdy nebudu.\n");
  }
 
  do {
-	printf("Tady budu pouze 1. Pote se zkontroluje podminka a ukonci se cyklus.\n");
+     printf("Tady budu pouze 1. Pote se zkontroluje podminka a ukonci se cyklus.\n");
  } while (1 == 2);
 ```
 
