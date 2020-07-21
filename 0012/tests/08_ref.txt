@@ -1,0 +1,7 @@
+Zadej souradnice hrace:
+Zadej souradnice kulek:
+Bullet check: MISS.
+Bullet check: MISS.
+Total damage out of 2 bullets: MISS.
+Bullet check: MISS.
+Total damage out of 3 bullets: MISS.
