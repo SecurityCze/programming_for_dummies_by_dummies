@@ -24,7 +24,7 @@ Program vypíše `Kategorie dotazu?` a čeká na vstup od uživatele.
 
 Na vstupu programu bude číselná hodnota 0-3. Tato hodnota představuje kategorii problému. Program poté podle kategorie vypíše automatickou odpověď uživateli (viz ukázka běhu).
 
-V případě že na vstupu programu bude neplatný vstup (prázdný vstup, neznáme číslo, jiný znak...) vypíše program chybové hlášení a ukončí se. 
+V případě že na vstupu programu bude neplatný vstup (prázdný vstup, neznáme číslo, jiný znak...), vypíše program chybové hlášení a ukončí se. 
 
 Program opět vypíše dotaz a pokračuje v načítání.
 
