@@ -46,8 +46,11 @@ Program na začátku musí vypsat hlášku pro uživatele: <span class="span-cls
 <br>
 Finální logika rank-upu či rank-downu spočívá v magické formuli: <span class="span-cls">TRRS = sqrt( 3 * kills + assists + 2 * MVP - deaths )</span>.<br>
 <br>
+<br>
+V případě, že by měla být provedena záporná odmocnina, je TRRS automaticky -1.
+<br>
+
 <ul class="list-cls">
-	<li class="list-item-cls">  V případě, že by měla být provedena záporná odmocnina, je TRRS automaticky -1.</li>
 	<li class="list-item-cls">  V případě, že TRRS je u hráče 2 a vyšší a tým vyhrál, program do konzole vypíše <span class="span-cls">Hrac #x: rank-up</span>.</li>
 	<li class="list-item-cls">  V případě, že TRRS je u hráče 1.5 a nižší a tým prohrál, program do konzole vypíše <span class="span-cls">Hrac #x: rank-down</span>.</li>
 	<li class="list-item-cls">  V jiném případě se do konzole jen vypíše <span class="span-cls">Hrac #x: 1.49</span>. 1.49 je jeho konečné TRRS vypsané na dvě místa.</li>
