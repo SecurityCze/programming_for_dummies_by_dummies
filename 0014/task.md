@@ -46,8 +46,7 @@ Program na začátku musí vypsat hlášku pro uživatele: <span class="span-cls
 <br>
 Finální logika rank-upu či rank-downu spočívá v magické formuli: <span class="span-cls">TRRS = sqrt( 3 * kills + assists + 2 * MVP - deaths )</span>.<br>
 <br>
-<br>
-V případě, že by měla být provedena záporná odmocnina, je TRRS automaticky -1.
+V případě, že by měla být provedena záporná odmocnina, je TRRS automaticky -1.<br>
 <br>
 
 <ul class="list-cls">
