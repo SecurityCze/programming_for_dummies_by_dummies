@@ -1,4 +1,8 @@
 <style>
+* {
+
+}
+
 body {
 	color: black;
 	background-color: white;
